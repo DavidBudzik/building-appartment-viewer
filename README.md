@@ -6,6 +6,8 @@ each apartment can be highlighted and selected, then flies through the balcony d
 show apartment. Below the film: live availability table with filters, unit details with floor
 plans, gallery and a viewing-request form.
 
+Live demo: https://davidbudzik.github.io/building-appartment-viewer/
+
 The demo project ("Halden Shore") is fictional. Its footage was generated with Higgsfield.
 
 ## Run it
