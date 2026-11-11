@@ -6,7 +6,7 @@ each apartment can be highlighted and selected, then flies through the balcony d
 show apartment. Below the film: live availability table with filters, unit details with floor
 plans, gallery and a viewing-request form.
 
-Live demo: https://davidbudzik.github.io/building-appartment-viewer/
+Live demo: https://halden-shore-apartment-viewer.netlify.app
 
 The demo project ("Halden Shore") is fictional. Its footage was generated with Higgsfield.
 
@@ -70,5 +70,8 @@ scripts/make-plans.mjs       schematic demo floor plans
 
 ## Deploy
 
-`.github/workflows/pages.yml` builds the site and publishes `dist/` to GitHub Pages on every
-push. Pages must be switched on once: repository **Settings → Pages → Source: GitHub Actions**.
+The demo is hosted on Netlify; `netlify.toml` holds the build settings (`npm run build`,
+publish `dist/`). Connect the repository to the Netlify project for automatic deploys on push.
+
+`.github/workflows/pages.yml` can publish the same build to GitHub Pages instead. Pages must
+be switched on once: repository **Settings → Pages → Source: GitHub Actions**.
