@@ -65,3 +65,8 @@ src/sections.js         nav, facts, availability table, drawer, gallery, form
 scripts/extract-frames.mjs   clips -> frame sequences
 scripts/make-plans.mjs       schematic demo floor plans
 ```
+
+## Deploy
+
+`.github/workflows/pages.yml` builds the site and publishes `dist/` to GitHub Pages on every
+push. Pages must be switched on once: repository **Settings → Pages → Source: GitHub Actions**.
