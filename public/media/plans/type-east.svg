@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 524.4 699.5999999999999" font-family="Manrope, system-ui, sans-serif">
+  <style>
+    .room{fill:#fbf8f2;stroke:#101614;stroke-width:3;stroke-linejoin:round}
+    .out{fill:url(#deck);stroke:#101614;stroke-width:1.5;stroke-dasharray:6 5}
+    .n{font-size:13px;font-weight:600;fill:#101614;text-anchor:middle}
+    .n.s{font-size:11px}
+    .a{font-size:11px;fill:#6d756f;text-anchor:middle}
+    .glass{stroke:#c9a56a;stroke-width:6}
+    .k{font-size:10px;letter-spacing:2px;fill:#6d756f;text-transform:uppercase}
+  </style>
+  <defs><pattern id="deck" width="10" height="10" patternUnits="userSpaceOnUse">
+    <rect width="10" height="10" fill="#f5f0e6"/><path d="M0 0V10" stroke="#d8cfbd" stroke-width="1.5"/></pattern></defs>
+  <rect class="out" x="40" y="554.8" width="444.4" height="74.8"/>
+  <rect class="room" x="40" y="40" width="105.6" height="132"/>
+  <rect class="room" x="145.6" y="40" width="96.79999999999998" height="132"/>
+  <rect class="room" x="242.39999999999998" y="40" width="105.60000000000002" height="184.8"/>
+  <rect class="room" x="348" y="40" width="136.39999999999998" height="184.8"/>
+  <rect class="room" x="40" y="172" width="202.39999999999998" height="149.60000000000002"/>
+  <rect class="room" x="242.39999999999998" y="224.8" width="105.60000000000002" height="96.80000000000001"/>
+  <rect class="room" x="348" y="224.8" width="136.39999999999998" height="96.80000000000001"/>
+  <rect class="room" x="40" y="321.6" width="237.60000000000002" height="233.19999999999996"/>
+  <rect class="room" x="277.6" y="321.6" width="206.79999999999995" height="233.19999999999996"/>
+  <line class="glass" x1="53.2" y1="554.8" x2="471.19999999999993" y2="554.8"/>
+  <text x="92.8" y="104" class="n s">Hall</text>
+      <text x="92.8" y="121" class="a">7.2 m²</text>
+  <text x="194" y="104" class="n s">Bathroom</text>
+      <text x="194" y="121" class="a">6.6 m²</text>
+  <text x="295.2" y="130.4" class="n s">Bedroom 3</text>
+      <text x="295.2" y="147.4" class="a">10.1 m²</text>
+  <text x="416.20000000000005" y="130.4" class="n">Bedroom 2</text>
+      <text x="416.20000000000005" y="147.4" class="a">13.0 m²</text>
+  <text x="141.2" y="244.8" class="n">Kitchen &amp; dining</text>
+      <text x="141.2" y="261.8" class="a">15.6 m²</text>
+  <text x="295.2" y="271.20000000000005" class="n s">Ensuite</text>
+      <text x="295.2" y="288.20000000000005" class="a">5.3 m²</text>
+  <text x="416.20000000000005" y="271.20000000000005" class="n">Utility</text>
+      <text x="416.20000000000005" y="288.20000000000005" class="a">6.8 m²</text>
+  <text x="158.8" y="436.20000000000005" class="n">Living</text>
+      <text x="158.8" y="453.20000000000005" class="a">28.6 m²</text>
+  <text x="381" y="436.20000000000005" class="n">Main bedroom</text>
+      <text x="381" y="453.20000000000005" class="a">24.9 m²</text>
+  <text x="262.2" y="596.1999999999999" class="n">Balcony / terrace</text>
+  <text x="40" y="685.5999999999999" class="k">Lake side ↓</text>
+  <g transform="translate(396.4, 677.5999999999999)">
+    <path d="M0 0H88M0 -4V4M44 -3V3M88 -4V4" stroke="#101614" stroke-width="1.5" fill="none"/>
+    <text x="44" y="16" class="a">2 m</text>
+  </g>
+</svg>

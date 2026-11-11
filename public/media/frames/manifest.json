@@ -1,0 +1,33 @@
+{
+  "fps": 12,
+  "sizes": [
+    "lg",
+    "sm"
+  ],
+  "clips": [
+    {
+      "id": "01-approach",
+      "frames": 96
+    },
+    {
+      "id": "02-arrival",
+      "frames": 62
+    },
+    {
+      "id": "03-flyin",
+      "frames": 62
+    },
+    {
+      "id": "04-enter",
+      "frames": 62
+    },
+    {
+      "id": "05-living",
+      "frames": 62
+    },
+    {
+      "id": "06-bedroom",
+      "frames": 62
+    }
+  ]
+}

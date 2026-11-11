@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en" class="is-loading">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#101614" />
+    <meta name="description" content="Scroll from the lake to the front door, choose an apartment on the building and step inside." />
+    <title>Apartment viewer</title>
+  </head>
+  <body id="top">
+    <div class="loader" aria-live="polite">
+      <p class="loader__brand"></p>
+      <div class="loader__bar"><i></i></div>
+      <p class="loader__status">Preparing the film</p>
+    </div>
+
+    <header class="nav"></header>
+
+    <main>
+      <!-- Scroll-driven film: the stage stays pinned while the page scrolls underneath it. -->
+      <section class="journey" aria-label="Scroll tour of the development">
+        <div class="stage">
+          <canvas class="stage__canvas"></canvas>
+          <div class="stage__shade"></div>
+          <svg class="units" preserveAspectRatio="xMidYMid slice" aria-label="Apartments on the building"></svg>
+          <div class="captions"></div>
+          <div class="selector">
+            <h2 class="selector__title"></h2>
+            <ul class="selector__legend"></ul>
+            <div class="unit-tag" aria-hidden="true"></div>
+            <aside class="unit-card" aria-live="polite"></aside>
+          </div>
+          <nav class="chapters" aria-label="Tour chapters"></nav>
+          <a class="stage__skip" href="#residences">Skip the tour</a>
+          <p class="scroll-hint"><span></span>Scroll to arrive</p>
+        </div>
+      </section>
+
+      <section class="section" id="place"></section>
+      <section class="section section--tint" id="residences"></section>
+      <section class="section" id="gallery"></section>
+      <section class="section section--dark" id="contact"></section>
+    </main>
+
+    <footer class="footer"></footer>
+
+    <dialog class="drawer" id="unit-dialog" aria-label="Apartment details">
+      <button class="drawer__close" type="button" data-close aria-label="Close">×</button>
+      <div class="drawer__body"></div>
+    </dialog>
+
+    <dialog class="lightbox" id="lightbox" aria-label="Gallery image">
+      <button class="lightbox__close" type="button" data-close aria-label="Close">×</button>
+      <button class="lightbox__nav" type="button" data-prev aria-label="Previous image">←</button>
+      <figure><img alt="" /><figcaption></figcaption></figure>
+      <button class="lightbox__nav" type="button" data-next aria-label="Next image">→</button>
+    </dialog>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
